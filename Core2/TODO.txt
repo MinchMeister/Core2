@@ -1,0 +1,19 @@
+graphql => look this up
+cqrs pattern
+event sourcing pattern
+
+learn react.js and maybe redux.js
+
+sass
+	sass compilers with foundation/bootstrap
+
+react.js
+redux.js
+	aurelia or angular? lol
+
+become git masta
+
+middleware
+    middleware in .net app
+
+what is bower => front end package manager
