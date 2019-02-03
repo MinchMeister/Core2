@@ -1,18 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Core2.Models;
+using Core2.BusinessLogic;
 
 namespace Core2.Controllers
 {
     public class HomeController : BaseController
     {
+        Service service = new Service(); //need constructor
+
+
+
         public IActionResult Index()
         {
-            return View();
+            var vModel = service.GetIndexViewModel();
+            return View(vModel);
         }
 
         public IActionResult About()

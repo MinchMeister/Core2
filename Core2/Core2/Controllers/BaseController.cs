@@ -14,6 +14,17 @@ namespace Core2.Controllers
 
         //learn react.js and maybe redux.js
 
+        //sass
+
+        //react.js
+        //redux.js
+
+
+        //middleware
+            //middleware in .net app
+
+        //what is bower => front end package manager
+
 
         public IActionResult Logout()
         {
@@ -30,7 +41,7 @@ namespace Core2.Controllers
             return View();
         }
 
-        public IActionResult Error()
+        public IActionResult ErrorPage()
         {
             return View();
         }
